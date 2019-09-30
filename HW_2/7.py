@@ -18,4 +18,4 @@ while u_num != game_num:
 	u_trys += 1
 	
 	
-print("А почему рот в казино?! Красава, угадал. Тебе понадобилось целых {trys} попыток, чтобы угадать число {game}".format(trys = u_trys, game = game_num))
+print("А почему рот в казино?! Красава, угадал. Тебе понадобилось целых {trys} попыток, чтобы угадать число {game}".format(trys = u_trys + 1, game = game_num))
