@@ -7,12 +7,12 @@ y = float(input("Введите координату y: "))
 
 # в какой четверти
 if x > 0 and y > 0:
-	print("1-я четверть")
+    print("1-я четверть")
 elif x < 0 and y > 0:
-	print("2-я четверть")
+    print("2-я четверть")
 elif x < 0 and y < 0:
-	print("3-я четверть")
+    print("3-я четверть")
 elif x > 0 and y < 0:
-	print("4-я четверть")
+    print("4-я четверть")
 elif not x and not y:
-	print("Точка на оси -|-")
+    print("Точка на оси -|-")
