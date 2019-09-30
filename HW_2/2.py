@@ -7,7 +7,7 @@ str_OK = input("Введи че-нибудь приличное: ")
 
 # обкашляем че он там написал и пихаем в массив
 while str_OK:
-	mas_N.append(str_OK)
-	str_OK = input("Введи че-нибудь приличное: ")
+    mas_N.append(str_OK)
+    str_OK = input("Введи че-нибудь приличное: ")
 
-print("".join(sorted(mas_N, reverse = True)))
+print("".join(sorted(mas_N, reverse=True)))
