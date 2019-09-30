@@ -9,7 +9,7 @@ sec = int(input("Введи второе число: "))
 sum_N = 0
 
 # считаем сумму
-for i in range(fir, sec+1):
+for i in range(fir, sec + 1):
     if not i % 5:
         sum_N += i
 
