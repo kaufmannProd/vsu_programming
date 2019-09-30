@@ -10,12 +10,12 @@ u_trys = 0
 
 # запускаем шарманку
 while u_num != game_num:
-	if u_num > game_num:
-		print("Не угадал! Я загадал число поменьше))")
-	if u_num < game_num:
-		print("Не угадал! Я загадал число побольше))")
-	u_num = int(input("Пробуй еще раз!: "))
-	u_trys += 1
+    if u_num > game_num:
+	print("Не угадал! Я загадал число поменьше))")
+    if u_num < game_num:
+	print("Не угадал! Я загадал число побольше))")
+    u_num = int(input("Пробуй еще раз!: "))
+    u_trys += 1
 	
 	
-print("А почему рот в казино?! Красава, угадал. Тебе понадобилось целых {trys} попыток, чтобы угадать число {game}".format(trys = u_trys + 1, game = game_num))
+print("А почему рот в казино?! Красава, угадал. Тебе понадобилось целых {trys} попыток, чтобы угадать число {game}".format(trys=u_trys + 1, game=game_num))
