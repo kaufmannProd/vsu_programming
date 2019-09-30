@@ -10,4 +10,4 @@ num = int(input("Какую цифру забыл?: "))
 # достаем все циферки из строки
 search_num = re.findall("\d", u_str)
 
-print("Держи свою цифру - {}, Дурак!".format(search_num[num - 1]))
+print("Держи свою цифру - {}!".format(search_num[num - 1]))
