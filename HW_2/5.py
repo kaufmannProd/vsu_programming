@@ -6,5 +6,5 @@ u_str = input("Давай строчку - будет столбик: ")
 
 # ща буит столбик
 for i in u_str:
-	print(i)
+    print(i)
 
