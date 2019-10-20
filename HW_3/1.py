@@ -12,7 +12,6 @@ if op in b:
     op *= 2
     b = u_str[ind_op + 2:]
 
-
 a = float(a)
 b = float(b)
 symb = {"+": a + b, "-": a - b, "*": a * b, "**": a ** b, "/": a / b, "//": a // b, "%": a % b}
