@@ -8,7 +8,7 @@ ind_op = u_str.find(op)
 a = u_str[:ind_op]
 b = u_str[ind_op + 1:]
 
-if b.find(op) != -1:
+if op in b:
     op *= 2
     b = u_str[ind_op + 2:]
 
