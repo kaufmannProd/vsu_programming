@@ -29,8 +29,8 @@ from random import randint
 is_mas = []
 
 for x in range(20):
-    is_mas.append(randint(0,100))
+    is_mas.append(randint(0, 100))
 
-print(f"Исходный массив:\n{is_mas[::1]}")
+print(f"Исходный массив:\n{is_mas}")
 
 shellSort(is_mas)
