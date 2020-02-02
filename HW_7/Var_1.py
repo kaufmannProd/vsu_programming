@@ -8,16 +8,16 @@ class Time:
         self.min = None
         self.hour = None
 
-    def WTII(self):
+    def time_set(self):
         print("What time is it?")
-        self.sec = input('How many seconds?: ')
-        self.min = input('How many mins?: ')
-        self.hour = input('How many hours?: ')
+        self.sec = int(input('How many seconds?: '))
+        self.min = int(input('How many mins?: '))
+        self.hour = int(input('How many hours?: '))
 
     def time_print(self):
         print(f"\nTime right now:\n{self.hour} : {self.min} : {self.sec}")
 
 
 a = Time()
-a.WTII()
+a.time_set()
 a.time_print()
