@@ -9,13 +9,13 @@ class Time:
         self.hour = None
 
     def time_set(self):
-        print("What time is it?")
+        print("Print your time: ")
         self.sec = int(input('How many seconds?: '))
         self.min = int(input('How many mins?: '))
         self.hour = int(input('How many hours?: '))
 
     def time_print(self):
-        print(f"\nTime right now:\n{self.hour} : {self.min} : {self.sec}")
+        print(f"\nYour input time:\n{self.hour} : {self.min} : {self.sec}")
 
 
 a = Time()
